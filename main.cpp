@@ -14,8 +14,7 @@ using namespace std;
 //money
 //    [0][1][2][3][4][5][6]
 
-int main() //entry point
-{
+
 	/*cout << "Hello, World" << endl;
 	cout << 3 + 4 << endl;
 	cout << 3 * 4 << endl;*/
@@ -24,12 +23,18 @@ int main() //entry point
 	//Money[0] = 10;
 	//Money[1] = 2;
 
-	int Money[1000];
 
-	for (int Index = 0; Index < 1000; ++Index)
-	{
-		Money[Index] = 10;
-	}
+	//메모리 공간 잡고 산술연산
+	//간단한 로직 -> 반복
+
+
+int main() //entry point
+{
+	//4byte 2^32 =-2G 0 ~ 2G
+	int MoneyOfMinji = 0; //초기화 하고 작업
+	//자료형 변수명 = 0;
+
+	cout << "Hello World" << '\n'; 
 	
 
 	return 0;
